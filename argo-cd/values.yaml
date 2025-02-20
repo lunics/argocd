@@ -1,6 +1,7 @@
 # all values: https://github.com/argoproj/argo-helm/blob/main/charts/argo-cd/values.yaml
 
 argo-cd:
+  namespaceOverride: argocd
   dex:                
     enabled: false    # disable integration with external auth providers
   notifications:
