@@ -12,7 +12,7 @@ spec:
     path:    root-app
     targetRevision: HEAD
   destination:
-    namespace: argo-cd
+    namespace: argocd
     server:    https://kubernetes.default.svc
   syncPolicy:
     automated:
