@@ -8,11 +8,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL:        git@github.com:lunics/argocd.git
+     repoURL:       https://github.com/lunics/argocd.git
+                    # git@github.com:lunics/argocd.git
                     # ssh://root@192.168.1.4/git/argocd
-                    # https://github.com/arthurk/argocd-example-install.git
                     # file:///home/lunics/usb_copy/homelab/k3s
-    path:           charts/root-app/
+    path:           root-app
     targetRevision: HEAD
   destination:
     namespace: argo-cd
